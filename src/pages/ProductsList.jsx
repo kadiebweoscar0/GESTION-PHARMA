@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 
-
 const products = [
     {
         id: "1",
