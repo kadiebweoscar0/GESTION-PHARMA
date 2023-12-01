@@ -1,7 +1,8 @@
+import { Link } from "react-router-dom";
 
-function Button(props) {
+function Button({ValueButton, LinkValue}) {
     return(
-        <button>{props.ValueButton}</button>
+        <button><Link to={LinkValue}>{ValueButton}</Link></button>
     )
 }
 export default Button;
