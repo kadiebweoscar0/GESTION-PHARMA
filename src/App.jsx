@@ -7,6 +7,7 @@ import Products from "./pages/products";
 import SingleProduct from "./pages/singleProduct";
 import ProductsList from "./pages/ProductsList";
 import NavBar from "./components/navBar";
+import './index.css'
 
 const products = [
   {
