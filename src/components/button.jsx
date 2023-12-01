@@ -1,8 +1,14 @@
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function Button({ValueButton, LinkValue}) {
+
+    const navigate = useNavigate();
+    const handleclick = () =>{
+        navigate(LinkValue)
+    }
+
     return(
-        <button><Link to={LinkValue}>{ValueButton}</Link></button>
+        <button onClick={handleclick}>{ValueButton}</button>
     )
 }
 export default Button;
